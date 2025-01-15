@@ -12,7 +12,7 @@ public class Conexao {
             String url = "jdbc:sqlserver://;serverName=localhost;databaseName=master;trustServerCertificate=true";
 
             // Estabelecer a conexão
-            Connection conn = DriverManager.getConnection(url, "sa", "Ng4048fg");
+            Connection conn = DriverManager.getConnection(url, "", "");
 
             // Verificar se a conexão foi estabelecida
             if (conn != null) {
